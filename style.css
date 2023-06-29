@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +26,8 @@ body {
     background-image: url("assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -31,13 +36,28 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;  /* sentido horario */
+   
+}
+
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -50,7 +70,33 @@ body {
     color: var(--cinza-secundario);
 }
 
-.container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+.secundario {
+    align-items: center;
+    margin: 0 10em;
 }
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    color: var(--branco-principal);
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
