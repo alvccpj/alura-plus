@@ -1,7 +1,18 @@
-<h1>Alura Plus</h1>
+# Alura+
+Olá, esse é um site da plataforma de cursos de Alura.
 
-> Project status: developing...
+![alura+ foto](https://github.com/alvccpj/alura-plus/assets/103002592/b46862be-8434-41c2-9612-73b9f932a984)
 
 
+## Ferramentas utilizadas:
 
-- This is me creating a landing page for Alura Plus.
+* HTML
+
+* CSS
+
+* Flex-box
+
+* Utilizei o Vercel para hospedar a plataforma, sem pagar por um domínio.
+## Feito por:
+
+### Álvaro Jordão
