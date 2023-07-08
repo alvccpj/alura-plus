@@ -12,6 +12,8 @@ Olá, esse é um site da plataforma de cursos de Alura.
 
 * Flex-box
 
+* Grid
+
 * Utilizei o Vercel para hospedar a plataforma, sem pagar por um domínio.
 ## Feito por:
 
